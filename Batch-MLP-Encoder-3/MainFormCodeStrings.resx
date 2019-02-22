@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CheckAndChangePropertiesBitDepthIncorrectString" xml:space="preserve">
+    <value>The bit depth is incorrect.</value>
+  </data>
+  <data name="CheckAndChangePropertiesDurationIncorrectString" xml:space="preserve">
+    <value>The duration is incorrect.</value>
+  </data>
+  <data name="CheckAndChangePropertiesNameExistsString" xml:space="preserve">
+    <value>The name has already existed.</value>
+  </data>
+  <data name="CheckAndChangePropertiesNameIllegalString" xml:space="preserve">
+    <value>The name is illegal.</value>
+  </data>
+  <data name="CheckAndChangePropertiesSamplingRateIncorrectString" xml:space="preserve">
+    <value>The sampling rate is incorrect.</value>
+  </data>
+  <data name="CreateSsfFilesExceptionString" xml:space="preserve">
+    <value>eac3to can not convert this file.</value>
+  </data>
+  <data name="ExecuteReportsMessageString" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="MainFormFormClosingCaptionString" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="MainFormFormClosingTextString" xml:space="preserve">
+    <value>Batch MLP Encoder is processing now. Close anyway?</value>
+  </data>
+  <data name="OpenSurcodeOptionsCannotClickEncoderOptionsMenuString" xml:space="preserve">
+    <value>Can not click "Encoder Options" menu.</value>
+  </data>
+  <data name="OpenSurcodeOptionsCannotExpandOptionsMenuString" xml:space="preserve">
+    <value>Can not expand "Options" menu.</value>
+  </data>
+  <data name="OpenSurcodeOptionsCannotFindEncoderOptionsMenuString" xml:space="preserve">
+    <value>Can not find "Encoder Options" menu.</value>
+  </data>
+  <data name="OpenSurcodeOptionsCannotFindOptionsMenuString" xml:space="preserve">
+    <value>Can not find "Options" menu.</value>
+  </data>
+  <data name="Page2PropertyButtonClickMessageStringLeft" xml:space="preserve">
+    <value>You clicked the "</value>
+  </data>
+  <data name="Page2PropertyButtonClickMessageStringRight" xml:space="preserve">
+    <value>" button manually.</value>
+  </data>
+  <data name="Page4BackgroundWorkerRunWorkerCompletedErrorString" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Page5StartButtonClickCannotFindEac3toString" xml:space="preserve">
+    <value>Can not find eac3to.</value>
+  </data>
+  <data name="Page5StartButtonClickCannotFindOutputFolderString" xml:space="preserve">
+    <value>Can not find the output folder.</value>
+  </data>
+  <data name="Page5StartButtonClickCannotFindSurcodeString" xml:space="preserve">
+    <value>Can not find Surcode MLP Encoder.</value>
+  </data>
+  <data name="Page5StartButtonClickCannotFindTempFolderString" xml:space="preserve">
+    <value>Can not find the temporary folder.</value>
+  </data>
+  <data name="Page5StartButtonClickMissingDirectoryString" xml:space="preserve">
+    <value>Missing Directory</value>
+  </data>
+  <data name="Page5StartButtonClickMissingFileString" xml:space="preserve">
+    <value>Missing File</value>
+  </data>
+  <data name="Page6BackgroundWorkersRunWorkerCompletedErrorCaptionString" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Page6BackgroundWorkersRunWorkerCompletedErrorTextString" xml:space="preserve">
+    <value>files haven't been converted to MLP files. Do you want to retry?</value>
+  </data>
+  <data name="Page6BackgroundWorkersRunWorkerCompletedSuccessCaptionString" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Page6BackgroundWorkersRunWorkerCompletedSuccessTextString" xml:space="preserve">
+    <value>All files have been converted to MLP files successfully.</value>
+  </data>
+  <data name="Page6CancelButtonClickConfirmCaptionString" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Page6CancelButtonClickConfirmTextString" xml:space="preserve">
+    <value>Do you really want to cancel?</value>
+  </data>
+  <data name="Page6eac3toBackgroundWorkerDoWorkEac3toTimeoutString" xml:space="preserve">
+    <value>eac3to hasn't exited yet. Time's out.</value>
+  </data>
+  <data name="Page6eac3toBackgroundWorkerDoWorkEac3toWorkingString" xml:space="preserve">
+    <value>eac3to is converting files...</value>
+  </data>
+  <data name="Page6ListviewsSelectedIndexChangedDefaultTextString" xml:space="preserve">
+    <value>If you get annoyed at eac3to's annoying sound, please delete "success.wav" and "error.wav" files in the eac3to folder.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkCannotClickOpenButtonString" xml:space="preserve">
+    <value>Can not click "Open" button.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkCannotClickStartButtonString" xml:space="preserve">
+    <value>Can not click "Start" button.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkCannotExpandOpenMenuString" xml:space="preserve">
+    <value>Can not expand "Open" menu.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkCannotExpandSetupMenuString" xml:space="preserve">
+    <value>Can not expand "Setup" menu.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkCannotFindFilenameString" xml:space="preserve">
+    <value>Can not find "Filename" textbox.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkCannotFindOpenButtonString" xml:space="preserve">
+    <value>Can not find "Open" button.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkCannotFindOpenMenuString" xml:space="preserve">
+    <value>Can not find "Open" menu.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkCannotFindSetupMenuString" xml:space="preserve">
+    <value>Can not find "Setup" menu.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkCannotFindStartButtonString" xml:space="preserve">
+    <value>Can not find "Start" button.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkEac3toErrorString" xml:space="preserve">
+    <value>eac3to can not convert this file.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkOpenDialogTimeoutString" xml:space="preserve">
+    <value>The "Open" dialog hasn't appeared yet. Time's out.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkStartSurcodeString" xml:space="preserve">
+    <value>Starting Surcode MLP Encoder...</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkSurcodeFailedString" xml:space="preserve">
+    <value>Surcode MLP Encoder can not convert this file.</value>
+  </data>
+  <data name="Page6SurcodeBackgroundWorkerDoWorkSurcodeTimeoutString" xml:space="preserve">
+    <value>Surcode MLP Encoder hasn't exited yet. Time's out.</value>
+  </data>
+  <data name="RunSurcodeFailedString" xml:space="preserve">
+    <value>Can not start Surcode MLP Encoder.</value>
+  </data>
+  <data name="RunSurcodeTimeoutString" xml:space="preserve">
+    <value>Time's out.</value>
+  </data>
+  <data name="SetMainFormTextString" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+</root>
